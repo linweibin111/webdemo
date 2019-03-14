@@ -1,0 +1,17 @@
+server:
+  port: 80
+
+
+spring:
+  datasource:
+    username: wanli
+    password: 123456
+    sql-script-encoding: utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://wanlinus.cn:3306/boot?useUnicode=true&characterEncoding=utf-8
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database: mysql
